@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Here you will find courses I have taught and their respective syllabi.
+description: 
 nav: true
 nav_order: 3
 ---

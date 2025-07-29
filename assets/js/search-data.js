@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Here you will find courses I have taught and their respective syllabi.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-data",
           title: "Data",
-          description: "In this page you will find data I have compiled and replication files for my published work.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";

@@ -2,13 +2,17 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Here you will find courses I have taught and their respective syllabi.
 nav: true
 nav_order: 3
 ---
 
-University of Kentucky
-Comparative Politics: Theory and Methods (Grad)
-Political Economy of Development (Grad)
-African POlitics (Grad/ Undergrad)
-Introduction to Comparative Politics (Undergrad)
+<u>**University of Kentucky**</u>
+
+**Comparative Politics: Theory and Methods (Grad)**
+
+**Political Economy of Development (Grad)**
+
+**African Politics (Grad/Undergrad)**
+
+**Introduction to Comparative Politics (Undergrad)**

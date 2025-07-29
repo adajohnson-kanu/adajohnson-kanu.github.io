@@ -2,10 +2,10 @@
 layout: page
 title: Data
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: In this page you will find data I have compiled and replication files for my published work.
 nav: true
 nav_order: 5
-display_categories: [work, fun]
+display_categories: [Replication files, Datasets]
 horizontal: false
 ---
 

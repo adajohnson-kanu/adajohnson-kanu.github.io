@@ -7,12 +7,12 @@ nav: true
 nav_order: 3
 ---
 
-<u>**University of Kentucky**</u>
+**<u>University of Kentucky</u>**
 
-**Comparative Politics: Theory and Methods (Grad)**
+Comparative Politics: Theory and Methods (Grad)
 
-**Political Economy of Development (Grad)**
+Political Economy of Development (Grad)
 
-**African Politics (Grad/Undergrad)**
+African Politics (Grad/Undergrad)
 
-**Introduction to Comparative Politics (Undergrad)**
+Introduction to Comparative Politics (Undergrad)

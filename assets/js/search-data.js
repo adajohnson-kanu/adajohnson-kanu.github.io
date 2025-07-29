@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Here you will find courses I have taught and their respective syllabi.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "You can find my CV on this page.",
+          description: "You can find my CV in pdf on this page.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";

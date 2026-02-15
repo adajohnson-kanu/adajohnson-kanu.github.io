@@ -4,7 +4,7 @@ title: Book Projects
 permalink: /books/
 description:
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 ## Sharing the National Cake: Ethnic Representation and Competition in the Nigerian Civil Service

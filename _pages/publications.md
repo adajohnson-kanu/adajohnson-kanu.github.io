@@ -41,9 +41,7 @@ _styles: >
   }
 ---
 
-You can find my CV in pdf **[HERE]({{ site.baseurl }}/assets/pdf/ANJK_CV.pdf)**.
-
-<div class="research-section">
+<div class="research-section" markdown="1">
 
 ## Peer-Reviewed Publications
 

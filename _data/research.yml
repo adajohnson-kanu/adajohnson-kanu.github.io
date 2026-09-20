@@ -105,6 +105,8 @@ working:
     authors: Ada Johnson-Kanu
     categories: [Bureaucracy & Representation, Historical Legacies]
     draft_note: Draft available upon request
+    abstract: >-
+      A large body of scholarship suggests that group representation in the bureaucracy has important consequences for distributive politics. But why do some ethnic groups have better bureaucratic representation than do others? Using data on bureaucratic personnel spanning nearly a century, I trace how the Nigerian Federal Civil Service – the country's national bureaucracy – emerged from the colonial state building process. I argue and show that ethnic groups with greater exposure to colonial education, and without an entrenched alternative to it, gained early entry into the colonial bureaucracy. These first entrants were subsequently more likely to be highly represented in the bureaucracy over time. Examining the ethnicity of individual civil servants and of new hires up to 1972, I show that the composition of fresh recruitment reproduces the standing composition of each agency, so that representation regenerates rather than merely surviving through incumbents. This reproduced advantage proves difficult to dislodge. It survives independence, the military coups of 1966, and the civil war, and the same groups remain dominant in the same agencies decades later, largely untouched by the Federal Character reforms of the 1990s. I theorize that this durability reflects first entrants maintaining their advantage through preferential hiring and targeted investment in the education of their co-ethnics.
 
 progress:
   - id: colonial-treaties

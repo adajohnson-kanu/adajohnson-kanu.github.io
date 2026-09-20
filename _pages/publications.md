@@ -7,43 +7,9 @@ nav: true
 nav_order: 3
 _styles: >
   /* Research page — content lives in _data/research.yml, rendered by assets/js/research.js.
-     Layout modeled on guygrossman.com/articles. Accents follow --global-theme-color. */
-  .pubs-ui { display: grid; grid-template-columns: 28% 1fr; gap: 2rem; align-items: start; }
-  @media (max-width: 992px) { .pubs-ui { grid-template-columns: 1fr; gap: 1.25rem; } }
-
-  .pubs-sidebar { position: sticky; top: 4.5rem; }
-  @media (max-width: 992px) { .pubs-sidebar { position: static; } }
-
-  .pubs-panel {
-    background: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 12px;
-    padding: 0.85rem;
-  }
-  .pubs-panel h3 { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--global-text-color-light); margin: 1rem 0 0.45rem; }
-
-  .pubs-tabs { display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.3rem; border-radius: 12px; border: 1px solid var(--global-divider-color); background: rgba(127,127,127,0.06); }
-  .pubs-tab { flex: 1 1 auto; border: 0; background: transparent; border-radius: 9px; padding: 0.35rem 0.6rem; font-size: 0.85rem; color: var(--global-text-color); cursor: pointer; }
-  .pubs-tab:hover { background: rgba(127,127,127,0.12); }
-  .pubs-tab.is-active { background: color-mix(in srgb, var(--global-theme-color) 16%, transparent); font-weight: 600; }
-
-  .pubs-field { width: 100%; border-radius: 10px; padding: 0.5rem 0.7rem; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); color: var(--global-text-color); font-size: 0.9rem; }
-  .pubs-field:focus { outline: none; border-color: var(--global-theme-color); box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-theme-color) 18%, transparent); }
-
-  .pubs-yeargrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(82px, 1fr)); gap: 0.4rem; }
-  .pubs-yearbtn { border: 1px solid var(--global-divider-color); background: rgba(127,127,127,0.06); border-radius: 10px; padding: 0.3rem 0.4rem; font-size: 0.82rem; color: var(--global-text-color); text-align: center; cursor: pointer; }
-  .pubs-yearbtn:hover { background: rgba(127,127,127,0.12); }
-  .pubs-yearbtn.is-active { background: color-mix(in srgb, var(--global-theme-color) 16%, transparent); border-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent); }
-
-  .pubs-chipwrap { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-  .pubs-chip { border: 1px solid var(--global-divider-color); background: transparent; border-radius: 999px; padding: 0.22rem 0.6rem; font-size: 0.8rem; color: var(--global-text-color); cursor: pointer; }
-  .pubs-chip:hover { background: rgba(127,127,127,0.10); }
-  .pubs-chip.is-active { background: color-mix(in srgb, var(--global-theme-color) 16%, transparent); border-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent); }
-
-  .pubs-clear { margin-top: 1rem; }
-
-  .pubs-yearhdr { margin: 1.1rem 0 0.5rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--global-text-color-light); border-bottom: 2px solid color-mix(in srgb, var(--global-theme-color) 25%, transparent); padding-bottom: 0.25rem; }
-  .pubs-main > .pubs-yearhdr:first-child { margin-top: 0; }
+     Card design adapted from guygrossman.com/articles. Accents follow --global-theme-color. */
+  .pubs-section h2 { font-size: 1.4rem; font-weight: 700; margin: 2.5rem 0 1.2rem; padding-bottom: 0.3rem; border-bottom: 2px solid var(--global-theme-color); }
+  .pubs-section:first-child h2 { margin-top: 0; }
 
   .pubs-card {
     border-left: 3px solid color-mix(in srgb, var(--global-theme-color) 40%, transparent);
@@ -62,8 +28,8 @@ _styles: >
   .pubs-status { color: var(--global-theme-color); font-weight: 700; }
 
   .pubs-badges { display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 0.15rem 0 0.4rem; }
-  .pubs-badge { font-size: 0.72rem; padding: 0.1rem 0.45rem; border-radius: 999px; background: color-mix(in srgb, var(--global-theme-color) 8%, transparent); border: 1px solid color-mix(in srgb, var(--global-theme-color) 18%, transparent); color: var(--global-text-color); }
-  .pubs-award { background: rgba(217,164,6,0.12); border-color: rgba(217,164,6,0.35); font-weight: 600; }
+  .pubs-badge { font-size: 0.72rem; padding: 0.1rem 0.45rem; border-radius: 999px; color: var(--global-text-color); }
+  .pubs-award { background: rgba(217,164,6,0.12); border: 1px solid rgba(217,164,6,0.35); font-weight: 600; }
   .pubs-award .fa-trophy { color: rgb(217,164,6); margin-right: 0.2rem; }
 
   .pubs-card details { margin: 0.2rem 0 0; }
@@ -82,8 +48,6 @@ _styles: >
   .pubs-bibtitle { font-size: 0.85rem; font-weight: 600; }
   .pubs-copybtn { border: 1px solid var(--global-divider-color); background: rgba(127,127,127,0.06); border-radius: 999px; padding: 0.2rem 0.55rem; font-size: 0.8rem; color: var(--global-text-color); cursor: pointer; }
   .pubs-bibpre { margin: 0; white-space: pre-wrap; font-size: 0.78rem; line-height: 1.4; }
-
-  .pubs-empty { padding: 1rem; border-radius: 12px; border: 1px dashed var(--global-divider-color); color: var(--global-text-color-light); }
 ---
 
 <div id="pubs-app">

@@ -1,0 +1,179 @@
+# Research page data. Rendered by assets/js/research.js on /publications/.
+#
+# Titles follow CV/CV.tex, not the submitted manuscript, when the two differ.
+# Sections: published, working, progress, other. Fields:
+#   title, authors (HTML allowed), year, journal, volume, issue, pages,
+#   status        review status shown in the accent colour (e.g. Under review)
+#   note          short remark after the venue (e.g. Lead article)
+#   award         shown as a trophy badge
+#   categories    topic chips in the sidebar
+#   abstract      HTML allowed
+#   links:        article (title link), draft, preprint, appendix, replication,
+#                 scholar, bibtex
+#   draft_note    small grey text in place of a Draft link, e.g.
+#                 "Draft available upon request"
+
+published:
+  - id: marikana
+    year: 2024
+    title: "State Violence, Party Formation, and Electoral Accountability: The Political Legacy of the Marikana Massacre"
+    authors: '<a href="https://www.ddekadt.com/">Daniel de Kadt</a>, Ada Johnson-Kanu, and <a href="https://www.melissasands.org/">Melissa Sands</a>'
+    journal: American Political Science Review
+    volume: "118"
+    issue: "2"
+    pages: "563–583"
+    note: Lead article
+    categories: [Elections & Accountability, State Violence & Policing]
+    abstract: >-
+      Democratic governments sometimes use violence against their people, yet little is known about the electoral consequences of these events. Studying South Africa's Marikana massacre, we document how a new opposition party formed as a direct result of violence, quantify significant electoral losses for the incumbent, and show that those losses were driven by voters switching from the incumbent to the new party. Three lessons emerge. First, incumbents who preside over state violence may be held electorally accountable by voters. Second, such accountability seemingly depends on the existence of credible opposition parties that can serve as a vector for disaffected voters. Where such parties do not exist, violence may create political cleavages that facilitate the formalization of opposition movements. Third, immediate proximity to violence is correlated with holding incumbents accountable.
+    links:
+      article: https://www.cambridge.org/core/journals/american-political-science-review/article/state-violence-party-formation-and-electoral-accountability-the-political-legacy-of-the-marikana-massacre/53053BE87AC75FE723B5E447E0AA0A28
+      preprint: /assets/pdf/papers/marikana-apsr.pdf
+      bibtex: |
+        @article{dekadt2024state,
+          title={State Violence, Party Formation, and Electoral Accountability: The Political Legacy of the Marikana Massacre},
+          author={de Kadt, Daniel and Johnson-Kanu, Ada and Sands, Melissa L.},
+          journal={American Political Science Review},
+          volume={118},
+          number={2},
+          pages={563--583},
+          year={2024},
+          publisher={Cambridge University Press}
+        }
+
+working:
+  - id: local-elections
+    title: "The Limits of Local Elections Under Subnational Authoritarianism: Evidence From Nigeria"
+    authors: Nicholas Cruz and Ada Johnson-Kanu
+    status: Under review
+    categories: [Elections & Accountability, Subnational Politics, Public Services]
+    abstract: >-
+      When do local government (LG) elections fail to improve public service delivery? Using Nigeria as a case study, we develop a theory of electoral institutions that explains how unconstrained subnational executives can exploit decentralized electoral institutions to disrupt democratic accountability at the local level, thereby neutralizing the incentive to provide adequate public services. By absorbing electoral institutions into clientelistic political machines, Nigerian governors can influence both the selection of candidates and election outcomes themselves. Nigerian governors are known to illegally cancel local elections and instead directly appoint "caretaker" committees. Where local elections were held, the political party of state governors has consistently won an overwhelming majority of all LG chairmanship elections. Using data on healthcare and education outcomes from the Nigerian General Household Survey (2010–2018) and a difference-in-differences design, we find that elected local leaders perform no better than appointed ones, across various model specifications. Consequently, we conclude that the introduction of LG elections are of little significance to Nigeria's public services due to the capture of both the LG electoral process and LG funds by state governors. This research contributes to a growing literature on subnational authoritarianism, showing how decentralized electoral institutions, often promoted as vehicles to further democratization, can instead be weaponized by subnational authoritarian leaders to entrench their control.
+    links:
+      draft: /assets/pdf/papers/local-elections.pdf
+
+  - id: fuel-subsidy
+    title: "Fuel Subsidy Removal in Nigeria: Household Welfare and Public Opinion"
+    authors: Ada Johnson-Kanu
+    status: Revise and resubmit
+    categories: [Public Opinion & Welfare, Political Economy]
+    abstract: >-
+      This article assesses the effects of fuel subsidy removal on Nigerian households using panel data from the Nigeria National Longitudinal Phone Survey. Employing a difference-in-differences strategy exploiting geographic variation in fuel supply infrastructure and urban–rural differences in fuel dependence, we find adverse welfare effects following the May 2023 reform. Households in states with greater fuel depot infrastructure experienced larger welfare declines. Urban households experienced greater deterioration in consumption and food security. A triple-difference specification yields results robust to confounding threats. Approximately 87 per cent of respondents disapproved of removal, citing increased prices. Absent compensatory transfers, fuel subsidy removal generates significant welfare costs concentrated among populations most dependent on formal fuel markets.
+    links:
+      draft: /assets/pdf/papers/fuel-subsidy.pdf
+
+  - id: man-leopard
+    title: The Man Leopard Murders and Contemporary Trust in the Nigerian Criminal Justice System
+    authors: Ada Johnson-Kanu and Godwin Okore
+    status: Under review
+    categories: [Historical Legacies, State Violence & Policing]
+    abstract: >-
+      Between 1943 and 1948, more than 200 people were killed in Calabar Province, Nigeria, by individuals disguised as leopards. The colonial administration responded with the largest police investigation in Nigerian colonial history and a public court process that resulted in the arrest of 96 suspects and the execution of 77 persons found guilty by the court. We examine whether these events generated long-term trust in criminal justice institutions. Using geolocated Afrobarometer data (rounds 3–9) matched to historical boundaries, we find that residents of Calabar Province report substantially higher trust in courts than residents of the surrounding South East region. The effect is specific to courts: placebo tests on six other outcomes of institutional trust are null. Trust in the police is elevated only within the Man Leopard zone itself, where the police investigation was concentrated. Cohort analysis shows the trust-in-courts advantage is concentrated among the 1940s and 1980s birth cohorts; and the effect is stronger among men, consistent with the gendered transmission of memory about the events. The court trial left a more durable legacy than the police investigation, suggesting that visible judicial resolution of community crises can build lasting institutional trust.
+    links:
+      draft: /assets/pdf/papers/man-leopard.pdf
+
+  - id: state-legislatures
+    title: "One-Party Legislatures? Partisan Dominance in Nigeria's State Houses of Assembly"
+    authors: Ada Johnson-Kanu
+    status: Under review
+    categories: [Subnational Politics, Legislatures]
+    abstract: >-
+      Party-system fragmentation is conventionally interpreted as evidence of competition, and competition as the engine of accountability. This paper identifies a condition under which that inference fails. Drawing on an original dataset of 2,975 legislators across all 36 Nigerian states and three electoral cycles (2015, 2019, 2023), I document a puzzle: between 2015 and 2023 the effective number of parties in the state assemblies rose and zero-opposition chambers all but disappeared, yet the governor's party retained supermajority control of the floor. I argue that opposition fragmentation operated as a mechanism of authoritarian resilience. New parties entered divided, each lacking the patronage infrastructure to cohere into a legislative bloc, so splitting the anti-incumbent vote produced the appearance of pluralism without the substance of accountability. A governor party-switch quasi-experiment, in which the incoming party is exogenous to the assembly's composition, and a cross-carpeting analysis of returning legislators trace the mechanism. The Nigerian case extends the subnational authoritarianism framework and specifies when counting parties conceals executive capture.
+    links:
+      draft: /assets/pdf/papers/state-legislatures.pdf
+
+  - id: speaker-selection
+    title: "The Governor's Choice? Speaker Selection in Nigerian State Assemblies"
+    authors: Ada Johnson-Kanu
+    status: Under review
+    categories: [Subnational Politics, Legislatures]
+    abstract: >-
+      Legislatures elect their own presiding officers, yet these officers do not always answer to the chambers that elect them. When does the presiding officer serve the legislative majority, and when the executive? I argue that the effective principal is set by who controls the two resources legislators depend on to hold their seats: entry through candidate nomination, and the fiscal and patronage base that sustains a career. Where the executive controls both and the legislature is weakly institutionalized, the presiding officer becomes an agent of the executive. Using an original dataset covering all 36 Nigerian states across three electoral cycles, 2,975 legislators, I show that Speakers come from the governor's party almost without exception, that governors install junior members over senior co-partisans, and that where the governor's party trails in the chamber the Speaker still follows the governor. The argument generates comparable predictions for other federal democracies in which executives control nomination and intergovernmental transfers.
+    links:
+      draft: /assets/pdf/papers/speaker-selection.pdf
+
+  - id: precolonial-agriculture
+    title: "Precolonial States and Development: Evidence from Agriculture in Africa"
+    authors: 'Ada Johnson-Kanu and <a href="https://sites.google.com/view/adasgupta/home?authuser=0">Aditya Dasgupta</a>'
+    categories: [Historical Legacies, Colonialism & Precolonial States, Political Economy]
+    draft_note: Draft available upon request
+    abstract: >-
+      Low agricultural productivity is a major source of poverty in Africa, where much of the population works in agriculture, yet subsistence production and food insecurity are widespread. However, some pockets of agriculture in Africa are highly productive. In this paper, we assemble a geospatial dataset of all pre-colonial African states in existence between 1500 and 1850, and utilize remote-sensing data based on satellite imagery to show that areas (pixels) in proximity to the location of pre-colonial state capitals display higher levels of contemporary agricultural output. This relationship exists across and within countries, agro-ecological zones, and river basins. We rule out spurious correlation with spatial randomization tests. We argue that via path-dependence and spatial agglomeration effects, pre-colonial states transmitted the territorial reach that was critical for state-led agricultural modernization in the twentieth century. The findings support a growing literature linking contemporary economic development to state capacity transmitted from pre-colonial political institutions.
+
+  - id: ethnic-representation
+    title: The Historical Roots of Ethnic Representation in the Civil Service
+    authors: Ada Johnson-Kanu
+    categories: [Bureaucracy & Representation, Historical Legacies]
+    draft_note: Draft available upon request
+
+progress:
+  - id: colonial-treaties
+    title: "The Political Economy of Colonial Treaty-Making: Evidence from British Treaties in West Africa, 1788–1901"
+    authors: Ada Johnson-Kanu
+    categories: [Colonialism & Precolonial States, Historical Legacies]
+    draft_note: Draft available upon request
+    abstract: >-
+      Between 1788 and 1901, British agents in West Africa concluded 480 documents called treaties. The contents of these so-called treaties have been interpreted in two opposite ways. African scholars dispute the term: the documents satisfy none of the conditions international law assigns to treaty-making. A second tradition treats the same documents as evidence of African agency in the partition of Africa. I reconcile these competing interpretations. I argue that these documents served two purposes. The documents served as instruments for pacifying African elites at low cost, and as instruments of territorial claim-making against rival European powers. Using a panel of 824 West African polities and 480 treaties coded from Hertslet's <em>Map of Africa by Treaty</em>, I show that military capacity shapes treaty form between standardized and individually negotiated treaties. Treaty polities were no less likely than non-treaty polities to be inside European territory early, and by 1895 both groups had reached the ceiling of 100 percent occupation. Treaty production clusters around the Berlin Conference, with a structural break at the Berlin Conference from coastal contested zones to signings within each power's allocated territory. Yes, African rulers exercised agency in the moment of signing, but the treaties were designed to produce colonization; bargaining within the treaty system may have changed its terms, not the trajectory it set in motion.
+
+  - id: mandate-fit
+    title: "Whose Job Is It? Mandate Fit and the Delegation of Constituency Projects in Nigeria"
+    authors: Ada Johnson-Kanu
+    categories: [Bureaucracy & Representation, Distributive Politics]
+    draft_note: Draft available upon request
+    abstract: >-
+      Nigerian audit organizations report that a third of constituency projects are assigned to agencies whose mandates do not cover the work, but a rate says nothing about the alternatives a legislator passed over. With Nigeria's Zonal Intervention Projects the legislator selects the implementing agency and may select any federal body, so the delegation decision is recorded. I build the policy–agency congruence measure, which scores a project's fit to an agency's statutory mandate, and fit a conditional logit over sixteen candidate ministries to 11,178 projects. Mandate fit predicts the choice better than anything else I measure; legislators reach the best-matched ministry at five times the rate indifference would produce and still miss two thirds of the time. Half of that miss reaches a ministry with a real but secondary claim, and half reaches a ministry with no claim at all. A ministry whose oversight committee the sponsor chairs is about three times as likely to receive the project, holding mandate fit constant, and the tie weighs twice as much for projects whose delivery cannot be inspected. Longer-serving legislators weigh mandate fit more. Neither ethnic representation among a ministry's officials nor its integrity ranking predicts where projects go.
+
+  - id: two-audiences
+    title: "Two Audiences, Many Forms: The Language of British Colonial Treaties in West Africa"
+    authors: Ada Johnson-Kanu
+    categories: [Colonialism & Precolonial States, Historical Legacies]
+    draft_note: Draft available upon request
+    abstract: >-
+      The 480 West African instruments that Hertslet's <em>Map of Africa by Treaty</em> records for the years 1788 to 1901 have supported two incompatible readings, one in which they are contracts of dispossession that no one consented to and one in which they are the record of African rulers bargaining with the partition. This article puts the language of the documents themselves at the centre and finds that each reading describes part of a text written for two readers. One register, addressed to rival European powers and to the Foreign Office, records cession, sovereign rights, jurisdiction and the exclusion of other Europeans. A second register, addressed to the African signatory, records protection, non-interference with native law, payment, and a growing apparatus of witnesses and interpreters attesting to consent. The ten printed forms of the Royal Niger Company show the first register expanding from "cede the whole of our territory" in 1884 to "the authorized Government of our territories" in 1890, while the consent apparatus thickened in step. Negotiated treaties with Sokoto, Gandu, Borgu and Lagos admit the counterpart's own constitutional forms into the text. Four cases (Opobo, Egba, Borgu and Lagos), together with two polities incorporated with no treaty at all, show what happened when signatories acted on the register addressed to them: the European register prevailed. It prevailed again in 2002, when the International Court of Justice adjudicated the 1884 Old Calabar treaty. The two interpretations are both correct, because they describe different halves of the same document.
+
+  - id: power-shared
+    title: "How Is Power Shared Below the Cabinet? Ethnic and Gender Representation in the Nigerian Federal Civil Service"
+    authors: Ada Johnson-Kanu and Sullivan Edeani
+    categories: [Bureaucracy & Representation, Ethnic Politics]
+    abstract: >-
+      Executives in diverse societies spread cabinet portfolios across ethnic lines, and a large literature treats that distribution as evidence of inclusion. Cabinets set policy; they do not implement it. This paper asks how far the balancing reaches into the bureaucracy that does. Appointments become harder to inspect at each tier below the cabinet, and this paper expects representation to narrow with them. Nigeria holds the formal rule constant while that visibility varies: the federal character principle covers every cadre of the public service, not political office alone. This paper assembles the posting circulars that move senior officers between ministries, the promotion circulars that raise them into the directorate, a roster of permanent secretaries, and the federal cabinet, and codes the ethnic group and the gender of every person in all three tiers on one scheme. Because the circulars record officers who moved or were promoted rather than the standing cadre, this paper benchmarks them against the last published count of the directorate, the Federal Character Commission's 2011 roster of 4,503 officers, and reports what that comparison shows the records can and cannot support. Gender enters as a second dimension, produced by examination and promotion rules rather than by appointment, and is expected to behave differently from ethnic representation.
+
+  - id: military-capacity
+    title: Precolonial Military Capacity, Colonial Incorporation, and State Violence
+    authors: Ada Johnson-Kanu
+    categories: [Colonialism & Precolonial States, State Violence & Policing]
+    abstract: >-
+      Studies of precolonial centralization and contemporary outcomes treat centralization as a fixed characteristic, and the standard measures capture administrative hierarchy rather than coercive strength. I introduce an original dataset of 258 precolonial African polities (existence 1500–1915) coded for military characteristics: army size, organization, cavalry, firearms, fortifications, naval capacity, and outcomes against European forces. The measure indexes coercive capacity and is distinct from centralization indices such as Murdock V33, with which it shares limited variance continent-wide. I argue that military capacity determined the mode by which a polity was incorporated into colonial rule. Weak and decentralized polities were absorbed by fiat, through administrative extension or an inter-imperial boundary agreement, without treaty or battle. Polities of moderate capacity were incorporated by diplomacy, through negotiated treaties that led to indirect rule. Capable polities were incorporated by force, through conquest and punitive expeditions. The mode of incorporation set the level of state violence a polity's population faced under colonial rule, and colonial-era violence persists into contemporary patterns of state violence against civilians. I test the chain from military capacity through incorporation mode and colonial violence to contemporary violence using ACLED data on state violence against civilians matched to the geocoded polities. The account decomposes the centralization composite, administrative hierarchy on one side and coercive capacity on the other, and reads the precolonial paradox as concentrated where centralization coincided with military capacity, because that combination drew incorporation by force.
+
+other:
+  - id: kerr-review
+    year: 2026
+    title: "Review of <em>Electoral Commissions and Democratization in Africa: Everyday Production of Democratic Legitimacy</em> by Nicholas Kerr"
+    authors: Ada Johnson-Kanu
+    journal: Africa Spectrum
+    note: Book review
+    categories: [Elections & Accountability]
+
+  - id: broadstreet-2022
+    year: 2022
+    title: Historical Origins of Ethnic Representation in the Nigerian Bureaucracy
+    authors: Ada Johnson-Kanu
+    journal: Broadstreet
+    note: Blog post
+    categories: [Bureaucracy & Representation, Historical Legacies]
+
+  - id: cp-newsletter-2021
+    year: 2021
+    title: Origins and Consequences of Descriptive Representation in the Nigerian Civil Service
+    authors: Ada Johnson-Kanu
+    journal: APSA Comparative Politics Newsletter
+    note: Fall 2021
+    categories: [Bureaucracy & Representation, Ethnic Politics]
+
+  - id: sio-2020
+    year: 2020
+    title: "#ZakzakyLifeMatters: An Investigation into a Facebook Operation Linked to the Islamic Movement in Nigeria"
+    authors: Shelby Grossman, Sean Gallagher, Ada Johnson-Kanu, Nicole Wilson, and David Thiel
+    journal: Stanford Internet Observatory
+    note: Report
+    categories: [Public Opinion & Welfare]

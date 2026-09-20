@@ -50,7 +50,6 @@
 
     const btns = [];
     if (links.draft) btns.push(actionLink("Draft", links.draft, true));
-    if (links.preprint) btns.push(actionLink("Preprint", links.preprint, !links.draft));
     if (links.appendix) btns.push(actionLink("Appendix", links.appendix));
     if (links.replication) btns.push(actionLink("Replication", links.replication));
     if (section === "published") btns.push(actionLink("Google Scholar", links.scholar || scholarUrlForTitle(p.title)));

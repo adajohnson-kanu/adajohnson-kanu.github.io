@@ -8,8 +8,8 @@
 #   award         shown as a trophy badge
 #   categories    topic chips in the sidebar
 #   abstract      HTML allowed
-#   links:        article (title link), draft, preprint, appendix, replication,
-#                 scholar, bibtex
+#   links:        article (title link to the published copy), draft (the
+#                 working-paper PDF), appendix, replication, scholar, bibtex
 #   draft_note    small grey text in place of a Draft link, e.g.
 #                 "Draft available upon request"
 
@@ -28,7 +28,7 @@ published:
       Democratic governments sometimes use violence against their people, yet little is known about the electoral consequences of these events. Studying South Africa's Marikana massacre, we document how a new opposition party formed as a direct result of violence, quantify significant electoral losses for the incumbent, and show that those losses were driven by voters switching from the incumbent to the new party. Three lessons emerge. First, incumbents who preside over state violence may be held electorally accountable by voters. Second, such accountability seemingly depends on the existence of credible opposition parties that can serve as a vector for disaffected voters. Where such parties do not exist, violence may create political cleavages that facilitate the formalization of opposition movements. Third, immediate proximity to violence is correlated with holding incumbents accountable.
     links:
       article: https://www.cambridge.org/core/journals/american-political-science-review/article/state-violence-party-formation-and-electoral-accountability-the-political-legacy-of-the-marikana-massacre/53053BE87AC75FE723B5E447E0AA0A28
-      preprint: /assets/pdf/papers/marikana-apsr.pdf
+      draft: /assets/pdf/papers/marikana-apsr.pdf
       bibtex: |
         @article{dekadt2024state,
           title={State Violence, Party Formation, and Electoral Accountability: The Political Legacy of the Marikana Massacre},

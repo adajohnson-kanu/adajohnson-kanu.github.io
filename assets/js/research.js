@@ -6,7 +6,6 @@
     { key: "published", label: "Peer-Reviewed Publications" },
     { key: "working", label: "Working Papers" },
     { key: "progress", label: "Works in Progress" },
-    { key: "other", label: "Other Writing" },
   ].filter((s) => Array.isArray(DATA[s.key]) && DATA[s.key].length);
 
   const stripTags = (s) => (s || "").replace(/<[^>]*>/g, "");

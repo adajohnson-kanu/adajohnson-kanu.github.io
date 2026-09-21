@@ -1,7 +1,7 @@
 # Research page data. Rendered by assets/js/research.js on /publications/.
 #
 # Titles follow CV/CV.tex, not the submitted manuscript, when the two differ.
-# Sections: published, working, progress, other. Fields:
+# Sections: published, working, progress. Fields:
 #   title, authors (HTML allowed), year, journal, volume, issue, pages,
 #   status        review status shown in the accent colour (e.g. Under review)
 #   note          short remark after the venue (e.g. Lead article)
@@ -147,36 +147,3 @@ progress:
     categories: [Colonialism & Precolonial States, State Violence & Policing]
     abstract: >-
       Studies of precolonial centralization and contemporary outcomes treat centralization as a fixed characteristic, and the standard measures capture administrative hierarchy rather than coercive strength. I introduce an original dataset of 258 precolonial African polities (existence 1500–1915) coded for military characteristics: army size, organization, cavalry, firearms, fortifications, naval capacity, and outcomes against European forces. The measure indexes coercive capacity and is distinct from centralization indices such as Murdock V33, with which it shares limited variance continent-wide. I argue that military capacity determined the mode by which a polity was incorporated into colonial rule. Weak and decentralized polities were absorbed by fiat, through administrative extension or an inter-imperial boundary agreement, without treaty or battle. Polities of moderate capacity were incorporated by diplomacy, through negotiated treaties that led to indirect rule. Capable polities were incorporated by force, through conquest and punitive expeditions. The mode of incorporation set the level of state violence a polity's population faced under colonial rule, and colonial-era violence persists into contemporary patterns of state violence against civilians. I test the chain from military capacity through incorporation mode and colonial violence to contemporary violence using ACLED data on state violence against civilians matched to the geocoded polities. The account decomposes the centralization composite, administrative hierarchy on one side and coercive capacity on the other, and reads the precolonial paradox as concentrated where centralization coincided with military capacity, because that combination drew incorporation by force.
-
-other:
-  - id: kerr-review
-    year: 2026
-    title: "Review of <em>Electoral Commissions and Democratization in Africa: Everyday Production of Democratic Legitimacy</em> by Nicholas Kerr"
-    authors: Ada Johnson-Kanu
-    journal: Africa Spectrum
-    note: Book review
-    categories: [Elections & Accountability]
-
-  - id: broadstreet-2022
-    year: 2022
-    title: Historical Origins of Ethnic Representation in the Nigerian Bureaucracy
-    authors: Ada Johnson-Kanu
-    journal: Broadstreet
-    note: Blog post
-    categories: [Bureaucracy & Representation, Historical Legacies]
-
-  - id: cp-newsletter-2021
-    year: 2021
-    title: Origins and Consequences of Descriptive Representation in the Nigerian Civil Service
-    authors: Ada Johnson-Kanu
-    journal: APSA Comparative Politics Newsletter
-    note: Fall 2021
-    categories: [Bureaucracy & Representation, Ethnic Politics]
-
-  - id: sio-2020
-    year: 2020
-    title: "#ZakzakyLifeMatters: An Investigation into a Facebook Operation Linked to the Islamic Movement in Nigeria"
-    authors: Shelby Grossman, Sean Gallagher, Ada Johnson-Kanu, Nicole Wilson, and David Thiel
-    journal: Stanford Internet Observatory
-    note: Report
-    categories: [Public Opinion & Welfare]
